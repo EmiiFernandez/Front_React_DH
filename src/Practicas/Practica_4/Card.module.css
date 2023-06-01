@@ -1,0 +1,20 @@
+.card {
+    border: 5px dotted #f5f5f5;
+    background-color: grey; 
+    padding: 5px 30px;
+    font-size: 20px;
+}
+
+.title {
+    border: 3px dotted #f5f5f5;
+    background-color: fuchsia;
+    padding: 5px 30px;
+
+}
+
+.footer {
+    border: 3px dotted black;
+    background-color: cornflowerblue;
+    padding: 5px 30px;
+
+}

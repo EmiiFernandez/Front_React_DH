@@ -1,0 +1,14 @@
+.item {
+    list-style: none;
+    border: 3px solid steelblue;
+    border-radius: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+/*
+:global se utiliza para aplicar estilos a elementos que tienen la clase .items dentro de elementos que tienen la clase .contact-theme.
+*/
+
+:global(.contact-theme) .item {
+    padding: 8px;
+}
